@@ -6,7 +6,7 @@ print("2- Calculadora de Soma")
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
-print(f"A soma de {num1} e {num2} é {num1 + num2}.")
+print(f"A soma de {num1} + {num2} = {num1 + num2}.")
 
 print("3- Calculadora de Volume")
 c = 12  # float(input("Digite o comprimento: "))
@@ -24,3 +24,4 @@ preco_total = preco_unitario * quantidade
 print(
     f"Você comprou {quantidade} unidades de {nome_produto}, O preço total é: R$ {preco_total:.2f}"
 )
+
